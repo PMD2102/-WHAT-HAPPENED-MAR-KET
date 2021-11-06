@@ -1,0 +1,132 @@
+.brandstory {
+  width: 1920px;
+  height: 956px;
+  mix-blend-mode: multiply;
+  background-color: $cerulean;
+  &__title {
+    position: absolute;
+    &__1 {
+      width: 387px;
+      height: 34px;
+      margin-top: 149px;
+      margin-left: 767px;
+      @include Text-Style-3;
+    }
+    &__2 {
+      width: 682px;
+      height: 45px;
+      @include Text-Style-10;
+      margin-left: 619px;
+      margin-top: 40px;
+    }
+    &__img1 {
+      position: absolute;
+      width: 183px;
+      height: 208px;
+      left: 169px;
+      top: 183px;
+      object-fit: contain;
+    }
+    &__img2 {
+      position: absolute;
+      width: 147px;
+      height: 134px;
+      top: 61px;
+      left: 1517px;
+      object-fit: contain;
+    }
+    &__img3 {
+      position: absolute;
+      width: 148px;
+      height: 165px;
+      top: 114px;
+      left: 1601px;
+      object-fit: contain;
+    }
+  }
+  &__body {
+    position: absolute;
+    &__img6 {
+      position: absolute;
+      width: 192px;
+      height: 338px;
+      top: 415px;
+      object-fit: contain;
+    }
+    &__img7 {
+      position: absolute;
+      width: 180px;
+      height: 255px;
+      top: 497px;
+      left: 190px;
+      object-fit: contain;
+    }
+    &__text {
+      &__img {
+        position: absolute;
+        top: 368px;
+        left: 335px;
+      }
+      &__1 {
+        width: 467px;
+        height: 20px;
+
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.4;
+        letter-spacing: normal;
+        color: $black-three;
+        position: absolute;
+        top: 431px;
+        left: 989px;
+      }
+      &__2 {
+        width: 528px;
+        height: 135px;
+        @include Text-Style-8;
+        position: absolute;
+        top: 490px;
+        left: 990px;
+      }
+      &__button {
+        position: absolute;
+        width: 200px;
+        height: 60px;
+        border: solid 3px #020001;
+        background-color: $white;
+        font-family: Montserrat;
+        font-size: 23px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.09;
+        letter-spacing: normal;
+        color: $black-three;
+        top: 693px;
+        left: 1030px;
+        cursor: pointer;
+      }
+    }
+    &__img5 {
+      position: absolute;
+      width: 350px;
+      height: 233px;
+      top: 537px;
+      left: 1570px;
+      object-fit: none;
+      object-position: 0 0;
+    }
+    &__img4 {
+      position: absolute;
+      width: 197px;
+      height: 457px;
+      top: 190px;
+      left: 1723px;
+      object-fit: none;
+      object-position: 0 0;
+    }
+  }
+}

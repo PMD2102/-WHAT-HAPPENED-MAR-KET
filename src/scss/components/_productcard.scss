@@ -1,0 +1,62 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 302px;
+  &__image {
+    width: 302px;
+    height: 298px;
+    object-fit: contain;
+  }
+  &__name {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.94;
+    letter-spacing: normal;
+    text-align: left;
+    color: $black-three;
+    margin-top: 29px;
+  }
+  &__price-like {
+    width: 302px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &__price {
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.19;
+      letter-spacing: normal;
+      text-align: left;
+      color: $black-three;
+    }
+    &__like {
+      display: flex;
+      flex-direction: row;
+
+      &__likeicon {
+        width: 19px;
+        height: 16px;
+        object-fit: contain;
+        margin-top: 9px;
+        margin-left: 6px;
+      }
+      &__numberlike {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.19;
+        letter-spacing: normal;
+        text-align: left;
+        color: $brownish-grey;
+      }
+    }
+  }
+}

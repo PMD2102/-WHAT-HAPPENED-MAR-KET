@@ -1,0 +1,154 @@
+.whathappened {
+  position: relative;
+  text-align: center;
+  width: 1920px;
+  height: 1687px;
+  &__title1 {
+    width: 602px;
+    height: 36px;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 10px;
+    text-align: left;
+    color: $black-two;
+
+    position: absolute;
+    top: 148px;
+    left: 662px;
+  }
+  &__title2 {
+    width: 675px;
+    height: 52px;
+    margin-top: 50px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: $black-two;
+
+    position: absolute;
+    top: 198px;
+    left: 615px;
+  }
+  &__button {
+    width: 200px;
+    height: 60px;
+    border: solid 3px #020001;
+    background-color: $white;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.09;
+    color: $black-three;
+    cursor: pointer;
+
+    position: absolute;
+    top: 339px;
+    left: 850px;
+  }
+  &__video {
+    width: 1251px;
+    height: 823px;
+    object-fit: contain;
+
+    position: absolute;
+    top: 471px;
+    left: 335px;
+  }
+
+  &__video1 {
+    width: 411px;
+    height: 204px;
+    object-fit: contain;
+
+    position: absolute;
+    top: 1336px;
+    left: 348px;
+  }
+
+  &__video2 {
+    width: 90px;
+    height: 83px;
+    object-fit: contain;
+
+    position: absolute;
+    top: 1328px;
+    left: 1182px;
+  }
+  &__video3 {
+    width: 146px;
+    height: 146px;
+    object-fit: contain;
+
+    position: absolute;
+    top: 1226px;
+    left: 223px;
+  }
+  &__video4 {
+    width: 262px;
+    height: 512px;
+    object-fit: none;
+    object-position: -335px 0;
+
+    position: absolute;
+    top: 314px;
+    left: 0;
+  }
+  &__video5 {
+    width: 146px;
+    height: 114px;
+    object-fit: contain;
+
+    position: absolute;
+    top: 0;
+    left: 226px;
+  }
+  &__video6 {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+
+    position: absolute;
+    top: 270px;
+    right: 224px;
+  }
+  &__video7 {
+    width: 146px;
+    height: 146px;
+    object-fit: contain;
+
+    position: absolute;
+    top: 168px;
+    right: 150px;
+  }
+  &__video8 {
+    width: 395px;
+    height: 512px;
+    object-fit: none;
+    object-position: 0 0;
+
+    position: absolute;
+    top: 971px;
+    right: 0;
+  }
+  &__video9 {
+    width: 175px;
+    height: 315px;
+    object-fit: none;
+    object-position: 0 0;
+
+    position: absolute;
+    top: 656px;
+    right: 0;
+  }
+}

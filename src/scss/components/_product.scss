@@ -1,0 +1,48 @@
+.product {
+  .bestproduct {
+    background: url("../../assets/Images/bes-bg.png");
+    width: 1920px;
+    height: 1073px;
+    object-fit: contain;
+    &__title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 115px;
+      padding-bottom: 74px;
+      h1 {
+        @include Text-Style-5;
+        padding-bottom: 49px;
+      }
+      p {
+        width: 700px;
+        @include Text-Style-16;
+      }
+    }
+    &__image {
+      padding: 0 176px;
+    }
+  }
+  .product__list {
+    width: 1920px;
+    background-color: $white;
+    padding-top: 142px;
+    padding-left: 174px;
+    padding-right: 175px;
+  }
+  .product__button {
+    width: 199px;
+    height: 60px;
+    border: solid 3px #020001;
+    background-color: $white;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 800;
+    color: $black-three;
+    margin-top: 116px;
+    margin-left: 860px;
+    margin-bottom: 143px;
+    cursor: pointer;
+  }
+}

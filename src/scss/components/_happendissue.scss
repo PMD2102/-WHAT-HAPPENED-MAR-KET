@@ -1,0 +1,139 @@
+.happendissue {
+  width: 1920px;
+  height: 1143px;
+  opacity: 0.85;
+  mix-blend-mode: multiply;
+  background-color: $goldenrod;
+  position: relative;
+
+  &__img1 {
+    width: 95px;
+    height: 95px;
+    object-fit: contain;
+    top: 42px;
+    left: 1755px;
+    position: absolute;
+  }
+  &__img2 {
+    width: 119px;
+    height: 111px;
+    object-fit: contain;
+    top: 163px;
+    left: 1733px;
+    position: absolute;
+  }
+  &__title1 {
+    width: 523px;
+    height: 36px;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 4.5px;
+    text-align: left;
+    color: $dark-brown;
+    top: 158px;
+    left: 699px;
+    position: absolute;
+  }
+  &__title2 {
+    width: 682px;
+    height: 45px;
+    @include Text-Style-9;
+    top: 234px;
+    left: 619px;
+    position: absolute;
+  }
+  &__button {
+    width: 200px;
+    height: 60px;
+    border: solid 3px #020001;
+    background-color: $sun-yellow;
+
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.09;
+    letter-spacing: normal;
+    color: $black-three;
+    top: 355px;
+    left: 840px;
+    position: absolute;
+    cursor: pointer;
+  }
+  &__brand {
+    position: absolute;
+    bottom: 141px;
+    &__issue {
+      width: 386px;
+      height: 480px;
+      padding: 87px 101px 85px 97px;
+      border: solid 3px $black-two;
+      background-color: $bright-orange-two;
+      &__title {
+        width: 189px;
+        height: 97px;
+        margin: 0 0 63px;
+        font-family: Montserrat;
+        font-size: 55px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.04;
+        letter-spacing: normal;
+        text-align: center;
+        color: $dark-brown;
+      }
+      &__imgarr {
+        width: 148px;
+        height: 148px;
+        object-fit: contain;
+        margin-left: 20px;
+      }
+      &__imgcoin {
+        position: absolute;
+        width: 167px;
+        height: 169px;
+        object-fit: contain;
+        right: -15px;
+        bottom: -85px;
+      }
+      &__imgcoin {
+        position: absolute;
+        width: 167px;
+        height: 169px;
+        object-fit: contain;
+        right: -15px;
+        bottom: -85px;
+      }
+      &__imgcoin {
+        position: absolute;
+        width: 167px;
+        height: 169px;
+        object-fit: contain;
+        left: 230px;
+        bottom: -85px;
+      }
+      &__imghot {
+        position: absolute;
+        width: 111px;
+        height: 59px;
+        object-fit: contain;
+        left: 400px;
+        bottom: 450px;
+      }
+      &__imglol {
+        position: absolute;
+        width: 133px;
+        height: 100px;
+        object-fit: contain;
+        right: 350px;
+        bottom: -55px;
+      }
+    }
+  }
+}

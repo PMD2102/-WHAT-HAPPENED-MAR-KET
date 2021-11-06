@@ -1,0 +1,24 @@
+.a {
+  .banner {
+    width: 1920px;
+    background-color: $tomato;
+  }
+  .introduction {
+    background: url("../../assets/Images/introduction-bg.png");
+    width: 1920px;
+    height: 576px;
+
+    &__content {
+      width: 849px;
+      padding: 159px 0 0 174px;
+
+      h1 {
+        @include Text-Style-15;
+      }
+      p {
+        padding-top: 59px;
+        @include Text-Style-6;
+      }
+    }
+  }
+}

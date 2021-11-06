@@ -1,0 +1,27 @@
+.brandcard {
+  width: 384px;
+  height: 480px;
+  border: solid 3px $black-two;
+  background-color: $dark-brown;
+  padding: 24px 0 1px;
+  text-align: center;
+  &__title {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: $white;
+  }
+  &__image {
+    width: 381px;
+    height: 405px;
+    object-fit: contain;
+  }
+}
+.brandcard:hover {
+  background-color: $bright-orange-two;
+  cursor: pointer;
+}

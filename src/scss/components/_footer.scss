@@ -1,0 +1,119 @@
+.footer {
+  width: 1920px;
+  height: 464px;
+  hr {
+    width: 1720px;
+    height: 1px;
+    margin-left: 99px;
+    background-color: $white-three;
+  }
+  &__1 {
+    display: grid;
+    grid-template-columns: auto 82px 128px 107px 91px;
+    gap: 90px;
+    margin: 51px 100px 60px 101px;
+    h4 {
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2.14;
+      letter-spacing: normal;
+      color: $black-two;
+    }
+  }
+  &__2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 22px;
+    &__para {
+      margin-left: -280px;
+      width: 839px;
+      height: 38px;
+      font-family: NotoSansCJKkr;
+      font-size: 14px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.71;
+      letter-spacing: normal;
+      color: $greyish;
+    }
+    &__icon {
+      margin-right: -275px;
+      img {
+        width: 23px;
+        height: 23px;
+        margin-left: 23px;
+      }
+    }
+  }
+}
+.footer__col1__para {
+  width: 260px;
+  height: 135px;
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  color: var(--black-two);
+  margin-top: 31px;
+}
+.footer__col2__para {
+  margin-top: 22px;
+  width: 82px;
+  height: 76px;
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.21;
+  letter-spacing: normal;
+  color: $black-four;
+}
+.footer__col3__para {
+  margin-top: 19px;
+  width: 128px;
+  height: 138px;
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.21;
+  letter-spacing: normal;
+  color: $black-four;
+}
+.footer__col4__para {
+  margin-top: 19px;
+  width: 82px;
+  height: 107px;
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.21;
+  letter-spacing: normal;
+  color: $black-four;
+}
+.footer__col5__para {
+  margin-top: 19px;
+  width: 91px;
+  height: 138px;
+
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.21;
+  letter-spacing: normal;
+  color: $black-four;
+}

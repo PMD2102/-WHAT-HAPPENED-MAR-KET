@@ -1,0 +1,41 @@
+.bestproductcard {
+  position: relative;
+  &__position {
+    img {
+      width: 92px;
+      height: 92px;
+      position: absolute;
+      left: -2px;
+      top: -40px;
+    }
+  }
+  &__image {
+    width: 523px;
+    height: 514px;
+    object-fit: contain;
+  }
+  &__title {
+    position: absolute;
+    width: 369px;
+    height: 79px;
+    border: solid 3px #020001;
+    background-color: $white;
+    bottom: -35px;
+    left: 70px;
+    .title {
+      width: 220px;
+      height: 44px;
+      padding: 15px 0 0 27px;
+      color: $black-three;
+      @include Text-Style;
+    }
+    img {
+      position: absolute;
+      width: 65px;
+      height: 66px;
+      right: $spacing-xs;
+      bottom: 6px;
+      cursor: pointer;
+    }
+  }
+}
